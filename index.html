@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="styless.css">
+    <!-- Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h2 class="faq-title">Frequently Asked Questions</h2>
+
+        
+        <!-- Dropdown Menu -->
+        <div class="dropdown">
+            <button class="dropbtn">More Information</button>
+            <div class="dropdown-content">
+                <a href="general-assumptions.html">General Assumptions</a>
+            </div>
+
+        
+        </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(0)">Why do we call the position prior to the manipulator the ‘committed position’?</div>
+                    <div class="faq-answer">This is because the batch has now been assigned to the ULD at least 10 minutes prior to build so is essentially now 'committed'.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(1)">What are each operator and their colours?</div>
+                    <div class="faq-answer">Black – Team Leader, Red – Drivers, Green – Operatives, Purple – Manipulator Operator.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(2)">Why can you only pick up 3 ULDs from the front 3 dollies at the full can buffer?</div>
+                    <div class="faq-answer">This is because if you pick up from the last dolly position you will be intruding into the roadway and the red route which is not allowed.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(3)">Why have we decided to do 3 flight lanes in the full can buffer?</div>
+                    <div class="faq-answer">We have found that by doing 3 flight lanes this works best by limiting the amount of full can buffer movements by not having to shuffle full ULDs around to pick up ULDs that could be at the back of the buffer.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(4)">Why do we leave at least one empty position in the empty can buffer?</div>
+                    <div class="faq-answer">If different airlines' flights are being built, two empty spaces must be left to ensure free movement. If it’s the same airline, only one empty space is required.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(5)">Is OOG and the box chute considered in this?</div>
+                    <div class="faq-answer">No, for this phase of the game OOG and the box chute has not been considered, however there is work ongoing around this to incorporate these in the later stages of the game.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(6)">Why are odd and even build cells layouts different?</div>
+                    <div class="faq-answer">Every odd build cell has an extra lateral position but two less empty buffer positions.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(7)">Why are driver requests 10 minutes and then if they are doing two tasks 20 minutes?</div>
+                    <div class="faq-answer">This is how we have played the game due to drivers being allocated from the build cell and having to get the GSE equipment which will be located outside the building. We have determined this as 10 minutes and any double task as 20 minutes due to the time it will take them to go to the AC or FCS.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(8)">What is the core focus of the build cell game?</div>
+                    <div class="faq-answer">The core focus of the game is to see the amount of vehicle and ULD movements, understand how the new build cells will be operated, and raise/address anything that may occur when playing the game.</div>
+                </div>
+            </div>
+        </div>
+    
+        <footer>
+            <p>&copy; 2024 Aviation Business Coninuity | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </footer>
+    
+        <script src="faq.js"></script>
+    </body>
+    </html>
